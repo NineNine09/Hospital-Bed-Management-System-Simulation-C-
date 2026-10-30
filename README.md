@@ -1,28 +1,14 @@
-# Hospital-Bed-Management-System-Simulation-C-
-A beginner-level C++ console application that simulates hospital bed management. The program allows users to check bed availability, admit patients, and discharge patients across five beds.
+A beginner-level C++ console program that manages hospital beds using separate functions. It tracks five beds, allows patients to be admitted or discharged, and saves bed information to a file.
 
 Features
-- Check bed availability: Displays the number of available beds.
-- Admit patients: Assigns a patient to a selected bed if it is available.
-- Discharge patients: Frees an occupied bed.
-- Input validation: Handles invalid menu selections and bed numbers.
-- Bed status tracking: Updates each bed's status as empty or occupied.
-
-Technologies
-- C++
-- Standard C++ Library
-- Console-based user interaction
-
-Concepts Practiced
-- Conditional statements and switch statements
-- Loops and menu navigation
-- Input validation and stream error handling
-- Variables and state management
-- Working with strings and standard library utilities
-Windows: hospital_beds.exe
-
-macOS/Linux: ./hospital_beds
+-----------------------
+- Check Bed Availability: Shows which beds are empty or occupied and counts the available beds.
+- Admit Patients: Assigns a patient to an empty bed (1–5).
+- Discharge Patients: Changes an occupied bed back to empty.
+- Save and Load Data: Loads bed information from `Beds1.txt` when the program starts and saves changes when it closes.
+- Input Validation: Prevents errors and crashes caused by invalid user input.
+- Bed Status Display: Shows the current status of all five beds during the program.
 
 Purpose
-
-This project was created to practice C++ programming fundamentals by building an interactive simulation involving bed availability, patient admission, and discharge operations.
+------------------------
+This project was created to improve my C++ skills by practicing functions, file handling, and error checking. It also helped me understand how using functions makes code more organized, easier to read, and easier to maintain.
